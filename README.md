@@ -12,7 +12,7 @@ You can click the Preview link to take a look at your changes.
  **Welcome to my tech wizard **
 - Introducing more passionate techie girl with 3 years of experience in IT industry :)
 - Expertised in ETL tool Informatica , SQL , Unix shell scripting 
-- I'm exploring the Data science and machine learning open source projects
+- I'm exploring the Data science , NLP machine learning open source projects
 - My most important lessons are noted here in this GIT repo
 
 
