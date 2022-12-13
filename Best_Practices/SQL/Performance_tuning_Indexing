@@ -16,3 +16,20 @@ Use indexes to pre-sort data
 Use multi-column indexes, but sparingly
 
 Look after your indexes
+
+
+## Thumb Rule ##
+
+Index ALL primary keys (I think most RDBMS do this when the table is created).
+Index ALL foreign key columns.
+Create more indexes ONLY if:
+Queries are slow.
+You know the data volume is going to increase significantly.
+Run statistics when populating a lot of data in tables.
+If a query is slow, look at the execution plan and:
+
+If the query for a table only uses a few columns, put all those columns into an index, then you can help the RDBMS to only use the index.
+Don't waste resources indexing tiny tables (hundreds of records).
+Index multiple columns in order from high cardinality to less. This means: first index the columns with more distinct values, followed by columns with fewer distinct values.
+If a query needs to access more than 10% of the data, a full scan is normally better than an index.
+
