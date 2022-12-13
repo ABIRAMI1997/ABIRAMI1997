@@ -1,1 +1,18 @@
 
+## SQL performance tuning - Best practices ##
+
+Index:
+
+Don’t index every column
+
+Index columns that you filter on
+
+Only index data that you need to look up
+
+Consider other index types 
+
+Use indexes to pre-sort data
+
+Use multi-column indexes, but sparingly
+
+Look after your indexes
