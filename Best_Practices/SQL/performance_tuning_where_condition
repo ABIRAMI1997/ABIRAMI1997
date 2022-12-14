@@ -1,0 +1,12 @@
+## Best practices for WHERE condition ##
+
+1.Avoid bookending wildcards in WHERE statements
+
+2.Avoid functions on columns in WHERE clauses
+
+3.Filter with WHERE before HAVING
+
+4.Prefer = to LIKE
+
+5.Prefer EXISTS to IN
+
