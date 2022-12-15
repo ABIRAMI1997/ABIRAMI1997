@@ -1,0 +1,17 @@
+## Best practices for sorting and grouping ##
+
+1. Bring order with a sort
+2. Reduce similar values into a group
+3. Limit data before it’s grouped
+4. Return all groups
+5. Limit data after it’s grouped
+6. WHERE comes before GROUP BY; SQL evaluates the WHERE clause before
+it groups records.
+HAVING comes after GROUP BY; SQL evaluates HAVING after
+it groups records.
+7. Limit data after it’s grouped
+8. Summarize the aggregate - WITH ROLLUP
+9. Summarize each column - With cube
+10. GROUPING FUNCTION WITH CUBE
+
+
