@@ -1,0 +1,19 @@
+* One of the best ways to boost JOIN performance is to limit how many rows need to be JOINed
+* If you perform regular joins between two or more tables in your queries, performance will be optimized if each of the joined columns have their own indexes.
+* If you perform regular joins between two or more tables in your queries, performance will be optimized if each of the joined columns have their own indexes.
+* JOIN performance has a lot to do with how many rows you can stuff in a data page.
+* Keep in mind that when you create foreign keys, an index is not automatically created at the same time.
+* Avoid joining tables based on columns with few unique values.
+* indexes on the columns being joined should ideally be numeric data types, not CHAR or VARCHAR, or other non-numeric data types
+* indexes on the columns to be joined should have the same data type, and ideally, the same width.
+* No cross join
+
+For example, I ran across a slow-performing query from an ERP program. After reviewing the code, 
+which used the Microsoft JOIN syntax, I noticed that instead of creating a LEFT JOIN, the developer
+had accidentally created a CROSS JOIN instead. In this particular example, less than 10,000 rows should have resulted
+from the LEFT JOIN, but because a CROSS JOIN was used, over 11 million rows were returned instead. Then the developer used a 
+SELECT DISTINCT to get rid of all the unnecessary rows created by the CROSS JOIN. As you can guess, this made for a very lengthy query.
+I notified the vendor’s support department about it, and they fixed their code.
+
+
+
