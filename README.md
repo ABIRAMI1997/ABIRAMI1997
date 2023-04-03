@@ -14,6 +14,7 @@ You can click the Preview link to take a look at your changes.
 - Certitifed AWS Data and Analytics, AWS Developer, Cloud practitioner.
 - Expertised in ETL tool Informatica , ELT Tool - Wherescape
 - Experienced in handling various database like Netezza, Oracle, SQL server.
+- Also developed and deployed code using Jenkins/Git version control.
 - Currently diving deep into Data engineering open source projects
 - My practice and learnings are noted in this repo.
 
