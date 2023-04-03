@@ -10,9 +10,11 @@ You can click the Preview link to take a look at your changes.
 
 
  **Welcome to my tech wizard **
-- Introducing more passionate techie girl with 3 years of experience in IT industry :)
-- Expertised in ETL tool Informatica , SQL , Unix shell scripting 
-- I'm exploring the Data science , NLP machine learning open source projects
-- My most important lessons are noted here in this GIT repo
+- Introducing more passionate techie girl with 3+ years of experience in IT industry :)
+- Certitifed AWS Data and Analytics, AWS Developer, Cloud practitioner.
+- Expertised in ETL tool Informatica , ELT Tool - Wherescape
+- Experienced in handling various database like Netezza, Oracle, SQL server.
+- Currently diving deep into Data engineering open source projects
+- My practice and learnings are noted in this repo.
 
 
