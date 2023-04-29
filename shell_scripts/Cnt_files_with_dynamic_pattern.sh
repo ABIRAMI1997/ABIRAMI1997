@@ -29,5 +29,8 @@ for file in "$pattern"*; do
     mv "$file" "${file%.*}_$date.${file##*.}"
 done
 
+#redirect the renamed file names to new file
+ls *$date* > renamed_files.txt
+
 set +x
 
