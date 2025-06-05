@@ -9,3 +9,13 @@ Bulk data loading from external cloud storage:
 7. load data using copy into snowflake
 8. query the table
 
+Continuous data loading:
+
+1. Store json format data using VARIANT for creating table
+2. Create s3 bucket, provide role and policy 
+3. In snowflake create integration with role arn and storage bucket name
+4. setup trust between aws and snowflake (user_arn and external id)
+5. create file format to copy command for snowpipe with auto ingest as true
+6. Provide sqs arn in s3 policy to ensure real time load
+7. Whenever there is new file in s3, the event notification will go to sqs, from sqs it will trigger snow pipe
+8. query the records.
