@@ -1,0 +1,10 @@
+Streams:
+
+Metadataaction. Metadataisupdate. Metadatarowid
+Update =delete +insert pairs
+how to find the changed record from standard streams
+Standard, append=only,Insert-only
+
+Task:
+
+
