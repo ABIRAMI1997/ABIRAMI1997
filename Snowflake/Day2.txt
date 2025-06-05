@@ -1,0 +1,11 @@
+Bulk data loading from external cloud storage:
+
+1. create s3 bucket
+2. create iam role and give permission
+3. In snowflake create integration with role arn and storage bucket name
+4. setup trust between aws and snowflake (user_arn and external id)
+5. create file format
+6. put the files in s3
+7. load data using copy into snowflake
+8. query the table
+
