@@ -1,0 +1,30 @@
+Task
+
+User managed task
+serverless snowflake task
+
+Not event based, but scheduled basis
+Cron and non- cron notation
+
+When task is created newly , it will be in suspended mode
+Alter task to resume or pause
+
+Time travel and fail safe:
+undo common mistakes
+backup and restore from id or time 
+acess at any point with data retention policy
+
+data_retention_time_in_days
+at or before
+undrop
+
+micro partitions
+
+fail safe = 7 days
+
+query id, timestamp, offset
+
+Cloning:
+Zero copy cloning
+
+
