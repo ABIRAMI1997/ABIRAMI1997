@@ -1,1 +1,13 @@
+Snowflake architecture
+UI
+Database ,schema
+Table type = permanent, transient, temporary, external
+View types = Standard, materialised, secure
+Stages= user, table , named
+File formats = csv, json ,avro
+Data loading approaches= Bulk using copy and continuous using snowpipe, auto -ingest
+
+
+
+
 
