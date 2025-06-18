@@ -2,3 +2,24 @@ https://github.com/pallets/flask/tree/main/examples/celery/src/task_app
 
 Learning: 
 Asynch calls
+Basic authentication
+Template rendering
+User sessions
+Flash messages
+Password hashing
+User management
+Pagination
+Marshmallow (serialization)
+JWT Authentication
+WebSockets
+Real-time messaging
+Flask-SocketIO integration
+Role-based authentication
+Flask-Login + SQLAlchemy + Flask-WTF
+Complex route structure
+Payment gateway integration (optional)
+Admin dashboard
+
+
+
+
