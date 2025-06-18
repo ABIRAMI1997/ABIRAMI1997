@@ -1,0 +1,4 @@
+https://github.com/pallets/flask/tree/main/examples/celery/src/task_app
+
+Learning: 
+Asynch calls
