@@ -1,1 +1,10 @@
 https://github.com/jakerieger/FlaskIntroduction
+
+
+Requests
+Response
+Routing
+Integrate with mysql, sqllite.
+CRUD operation
+Intergate with docker
+Integrate with Heroku
