@@ -4,6 +4,7 @@ Learning:
 Asynch calls
 Basic authentication
 Template rendering
+Blueprint
 User sessions
 Flash messages
 Password hashing
