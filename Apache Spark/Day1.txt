@@ -1,1 +1,24 @@
-
+Apache Spark V/S Hadoop MapReduce
+What is Apache Spark
+Spark Architecture
+Application Master Container
+Databricks Free Account
+Spark Session 
+Lazy Evaluation and Actions
+Spark Query Plans and Spark UI
+Spark RDD
+Narrow and Wide Transformations
+Repartition VS Coalesce
+Jobs, Stages, and Tasks in PySpark
+Shuffle Joins in PySpark
+Broadcast Joins in PySpark
+Spark SQL Engine 
+Driver Memory Management 
+Executor Memory Management
+Unified Memory Management
+Executor Out Of Memory
+Salting in PySpark
+Cache and Persist in Apache Spark
+Edge Node and Deployment Mode
+Adaptive Query Execution
+Dynamic Partition Pruning in Apache Spark
