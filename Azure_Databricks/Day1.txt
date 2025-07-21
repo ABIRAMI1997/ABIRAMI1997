@@ -1,0 +1,9 @@
+Spark Architecture: Understand the core components and how they work together.
+Databricks Fundamentals: Get familiar with the Databricks environment and its features.
+DBFS (Databricks File System): Learn how to manage files and data efficiently.
+PySpark Transformations: Dive into data manipulation and processing techniques.
+External Data: Discover how to connect and read data from Azure Data Lake.
+Delta Lake: Explore Delta Lake in detail and its advantages for data management.
+Autoloader : Incrementally load data with spark streaming dataframes. 
+Real-time Scenarios: Apply your knowledge to practical use cases.
+Interview Questions: Prepare for your next job interview with common questions in big data engineering.
