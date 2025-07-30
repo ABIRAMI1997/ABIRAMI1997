@@ -1,0 +1,4 @@
+Articles on linkedin
+
+Why DB should be integrated with fabric.
+Databricks taking over SAS platforms
